@@ -1,0 +1,6 @@
+timestamp,severity,category,source,title,description,ip_address,hostname,username,status,tags
+2026-09-14 10:41:00,HIGH,authentication,Windows Event Log,Multiple Failed Logins,Several failed sign-in attempts were recorded for a fictional workstation.,192.168.1.20,WS-04,student.user,OPEN,"authentication,windows"
+2026-09-14 11:12:00,CRITICAL,malware-detection,IDS,Suspicious File Detected,A fictional suspicious file indicator was detected in a lab directory.,192.168.1.32,SRV-02,service.demo,OPEN,"ids,file-integrity"
+2026-09-13 08:30:00,LOW,network,Firewall,Firewall Connection Blocked,A denied inbound connection was logged by the firewall.,10.10.0.15,FW-EDGE,,RESOLVED,"firewall,network"
+2026-09-12 16:20:00,MEDIUM,certificate,Web Server,Certificate Nearing Expiration,A fictional TLS certificate is nearing expiration and should be reviewed.,,WEB-01,,OPEN,"tls,certificate"
+2026-09-10 09:15:00,INFO,operations,Application,Service Restarted,A monitored service restarted successfully after a scheduled update.,,APP-02,,RESOLVED,"operations,service"
